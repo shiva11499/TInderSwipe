@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="2dp"
     app:cardCornerRadius="16dp"
     tools:ignore="ContentDescription">
 
@@ -47,6 +47,7 @@
             app:layout_constraintEnd_toEndOf="@id/user_name"
             app:layout_constraintStart_toStartOf="@id/user_name"
             tools:text="Software Engineer" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <FrameLayout

@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         layoutManager.setRewindAnimationSetting(setting);
 
-
         stackView.setLayoutManager(layoutManager);
         stackView.setAdapter(new CardAdapter(initData()));
 
