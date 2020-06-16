@@ -38,10 +38,10 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.CardView> {
                 .into(holder.imageView);
     }
 
-//     @Override
-//     public int getItemCount() {
-//         return users == null ? 0 : users.size();
-//     }
+    @Override
+    public int getItemCount() {
+        return users == null ? 0 : users.size();
+    }
 
     static class CardView extends RecyclerView.ViewHolder {
         private final ImageView imageView;
