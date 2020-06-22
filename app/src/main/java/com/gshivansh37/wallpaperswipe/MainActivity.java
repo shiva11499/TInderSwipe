@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    //function to add placeholder data
     private List<User> initData() {
         List<User> users = new ArrayList<>();
         users.add(new User("Renae Will", "Surgeon", "https://media.idownloadblog.com/wp-content/uploads/2017/01/vellum-wallpaper-1.jpg"));
