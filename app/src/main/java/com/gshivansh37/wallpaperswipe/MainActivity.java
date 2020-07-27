@@ -30,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
         CardStackLayoutManager layoutManager = new CardStackLayoutManager(this);
         layoutManager.setStackFrom(StackFrom.Top);
         layoutManager.setVisibleCount(3);
+        
+        //Rewind feature
         RewindAnimationSetting setting = new RewindAnimationSetting.Builder()
                 .setDirection(Direction.Left)
                 .setDuration(Duration.Slow.duration)
