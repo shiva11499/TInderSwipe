@@ -1,4 +1,4 @@
-# TnderSwipe
+# TinderSwipe
 - Tinder like swipeable card view feature in Android
 - Used library [CardStackView](https://github.com/yuyakaido/CardStackView) 
 - Used Glide for image loading
